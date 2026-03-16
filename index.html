@@ -1,54 +1,66 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l !== "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-PGZH8HT");
+  </script>
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Space+Grotesk:wght@400;500;700&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Mohamad Zamini | Machine Learning Engineer</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <title>Mohamad Zamini | Machine Learning Engineer &amp; PhD Candidate</title>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126939217-2');
+    gtag("js", new Date());
+    gtag("config", "UA-126939217-2");
   </script>
 
-  <!-- Open Graph-->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Mohamad Zamini | Machine Learning Engineer" />
-  <meta property="og:description" content="Machine Learning Engineer" />
+  <meta property="og:title" content="Mohamad Zamini | Machine Learning Engineer &amp; PhD Candidate" />
+  <meta
+    property="og:description"
+    content="Official website of Mohamad Zamini, focused on multimodal AI, LLM optimization, and scalable machine learning systems."
+  />
   <meta property="og:url" content="https://mzamini92.github.io/" />
-  <meta property="og:site_name" content="Mohamad Zamini | Machine Learning Engineer" />
-  <meta property="article:publisher" content="https://mzamini92.github.io//" />
-  <meta property="og:image" content="https://mzamini92.github.io/examples/preview.JPG" />
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="#" />
-  <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
-  <meta name="twitter:description" content="Machine Learning Engineer" />
-  <meta name="twitter:url" content="#" />
+  <meta property="og:site_name" content="Mohamad Zamini" />
+  <meta property="og:image" content="https://mzamini92.github.io/assets/img/passport-new.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mohamad Zamini | Machine Learning Engineer &amp; PhD Candidate" />
+  <meta
+    name="twitter:description"
+    content="Machine learning engineer and PhD candidate building efficient multimodal systems, LLM tooling, and production-minded AI workflows."
+  />
+  <meta name="twitter:url" content="https://mzamini92.github.io/" />
   <meta name="author" content="Mohamad Zamini" />
-  <meta name="description" content="Mohamad Zamini: Machine Learning and NLP Specialist | PhD Candidate | Software Engineer" />
+  <meta
+    name="description"
+    content="Official portfolio of Mohamad Zamini, a machine learning engineer and PhD candidate specializing in multimodal reasoning, LLM efficiency, and scalable AI systems."
+  />
+
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
@@ -63,916 +75,682 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
   <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileColor" content="#0a1020" />
   <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
+  <meta name="theme-color" content="#0a1020" />
   <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
-
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+    ></iframe>
   </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Navigate to the top of the page">
+        <span class="brand-mark">MZ</span>
+        <span class="brand-copy">
+          <strong>Mohamad Zamini</strong>
+          <small>Machine Learning Engineer</small>
+        </span>
+      </a>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Toggle navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a
+          class="nav-cta"
+          href="/assets/resume/Mohamad_Zamini_Optimized_Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >Resume</a>
+      </nav>
+    </header>
 
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
+    <main>
+      <section id="top" class="hero">
+        <div class="hero-backdrop" aria-hidden="true">
+          <span class="orb orb-one"></span>
+          <span class="orb orb-two"></span>
+          <span class="orb orb-three"></span>
+          <span class="grid-glow"></span>
+        </div>
 
-      <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Official website</p>
+            <h1>
+              Mohamad Zamini builds
+              <span class="typed-role" aria-label="Rotating specialties">efficient multimodal AI systems</span>
+            </h1>
+            <p class="hero-lede">
+              Machine learning engineer and final-year PhD candidate focused on multimodal reasoning, large
+              language model efficiency, and research-to-production AI systems.
+            </p>
 
-      <li class="bold">
-        <!--
-        ICONS:
-        1. mdi-action-description
-        2. mdi-file-folder
-        3. mdi-file-folder-open
-        4. mdi-file-attachment
-        5. mdi-file-folder-shared
-        -->
-        <!-- <a aria-label="Open Mohamad's resume in a new tab" href="#resume" target="_blank"
-          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
-        <a aria-label="Open Mohamad's resume in a new tab" href="https://mzamini92.github.io/assets/resume/Mohamad_Zamini_Optimized_Resume.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Mohamad
-        Bhogayata</a><span class="black-text">Machine Learning Engineer</span>
-    </div>
-  </nav>
-
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Mohamad's Resume in a new tab"
-          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">Mohamad Zamini.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Self-driven and passionate about advancing machine learning, I am focused on pushing the boundaries of Large Language Models (LLMs) through innovative research and development. As a final-year PhD Candidate with hands-on experience in optimizing LLMs during my recent internship, I am committed to solving complex real-world problems with cutting-edge AI technology. My ambition is to contribute to the future of AI by developing scalable and efficient models that can transform industries and enhance human-computer interaction.
-
-
-
-
-
-
-</h5>
+            <div class="hero-tags" aria-label="Specializations">
+              <span>LLM optimization</span>
+              <span>Multimodal AI</span>
+              <span>PyTorch</span>
+              <span>Model interpretability</span>
             </div>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/mohamad-zamini-70794646" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/mzamini92/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
 
-               <a href="https://scholar.google.com/citations?user=Xh0_MckAAAAJ" target="_blank">
-                <button class="icon-btn angellist">
-                  <i class="fa fa-angellist"></i>
-                </button>
-              </a> 
-
-              <!-- <a href="https://www.linkedin.com/in/mohamad-zamini-70794646" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-
-                  </span>
-              </a> -->
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="#contact">Start a Conversation</a>
             </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
+
+            <div class="hero-metrics">
+              <article>
+                <strong>4</strong>
+                <span>industry and research roles</span>
+              </article>
+              <article>
+                <strong>6</strong>
+                <span>featured machine learning projects</span>
+              </article>
+              <article>
+                <strong>1</strong>
+                <span>PhD track in multimodal reasoning</span>
+              </article>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
-        <!-- <blockquote>
-          <h2>
-            A PhD Candidate with a passion for Machine Learning Development, specializing in Large Language Models (LLM) and Large Vision Models (LVM).
-
-          </h2>
-        </blockquote> -->        
-        <p>
-          I am a PhD candidate in Computer Science with a focus on optimizing Multimodal Large Language Models (MLLMs) to enhance their reasoning capabilities. My work involves accelerating LLMs through advanced techniques such as pruning, ensuring performance is maintained or improved. I have hands-on experience with foundational models, having previously interned at Numenta Inc., and I am currently developing innovative approaches like Mixture of Depth (MoD), Mixture of Experts (MoE) for resamplers, and attention pruning to push the boundaries of MLLM efficiency and scalability.
-
-        </p>
-        <p>
-          <ul>
-            <li><b>Programming Languages:</b> Python, C++</li>
-            <li><b>Databases:</b> MySQL, MongoDB, PostgreSQL</li>
-            <li><b>Libraries & Frameworks:</b> PyTorch, TensorFlow, Hugging Face Transformers, Keras, NumPy, Pandas, OpenCV</li>
-            <li><b>Model Optimization & Deployment:</b> ONNX, TensorRT, TorchServe, FastAPI</li>
-            <li><b>Tools & Platforms:</b> Git, Docker, Kubernetes, AWS, GCP, Azure, JIRA, Weights & Biases (wandb)</li>
-
-          </ul>
-          
-        </p>
-          
-        <!-- <p>
-          
-Detail-oriented PhD Candidate and Software Developer with professional experience in Machine Learning Development, specializing in Large Language Models (LLM) and Large Vision Models (LVM). I am proficient in Python, PyTorch, TensorFlow, and skilled in deploying and optimizing machine learning models on cloud platforms like AWS and GCP.        </p> -->
-        <p>
-Seeking a challenging position that leverages my expertise in Machine Learning and Software Engineering, offering opportunities for professional development, innovative experiences, and personal growth.        </p>
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
-      </div>
-    </section>
-
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
-
-        <!-- Latest Experience -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.Microsoft.com/" target="_blank"><img alt="Microsoft logo"
-                    src="/assets/img/Microsoft.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.Microsoft.com/" target="_blank"
-                      class="teal-text hoverline">Microsoft</a></span>
-                </p>
-              </div>
+          <aside class="hero-panel reveal">
+            <div class="portrait-card">
+              <img src="/assets/img/passport-new.jpg" alt="Portrait of Mohamad Zamini" class="portrait" />
+              <div class="portrait-ring"></div>
             </div>
-            <div class="role brown-text text-darken-2">Data Science Intern</div>
-              <ul>
-                <li>Built LLM-driven analytics agent enabling natural-language querying and multi-turn reasoning over large-scale telemetry logs.</li>
-                <li>Automated weekly monitoring of retention and engagement metrics using SHAP, ANOVA, and anomaly-aware delta detection.</li>
-                <li>Designed scalable data pipelines supporting session-level behavioral modeling.</li>
-                <li><b>Tools:</b> Python, PyTorch</li>
+
+            <div class="focus-card">
+              <p class="eyebrow">Current focus</p>
+              <h2>Making large models more efficient without losing reasoning quality.</h2>
+              <p>
+                My recent work spans pruning, attention sparsity, mixture-of-depth routing, expert resampling,
+                telemetry-aware analytics, and practical ML tooling for real-world systems.
+              </p>
+              <ul class="signal-list">
+                <li>Recent experience at Microsoft and Numenta</li>
+                <li>Research in multimodal reasoning at the University of Wyoming</li>
+                <li>Hands-on with PyTorch, Transformers, FastAPI, ONNX, TensorRT, and cloud workflows</li>
               </ul>
-
-          </div>
-          <div class="card-action">
-            <span>May 2025 - Aug 2025 | Redmond, WA</span>
-          </div>
+            </div>
+          </aside>
         </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.Numenta.com/" target="_blank"><img alt="Numenta logo"
-                    src="/assets/img/Numenta-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.Numenta.com/" target="_blank"
-                      class="teal-text hoverline">Numenta</a></span>
-                </p>
-              </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>Research depth with an engineering mindset.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="section-copy reveal">
+              <p>
+                I am a Computer Science PhD candidate at the University of Wyoming researching how to improve the
+                efficiency and reasoning ability of multimodal large language models. My work combines causal
+                reasoning, pruning, sparse attention, and architecture-level optimization to make advanced models
+                more practical under real compute constraints.
+              </p>
+              <p>
+                I enjoy translating ambitious research ideas into systems people can actually use. That includes
+                training and fine-tuning foundation models, building analytics and experimentation pipelines, and
+                shaping ML workflows that are both scalable and interpretable.
+              </p>
+              <p>
+                I am especially interested in applied research and ML engineering roles where I can contribute to
+                high-impact AI products, efficient model design, and rigorous experimentation.
+              </p>
             </div>
-            <div class="role brown-text text-darken-2">Machine Learning Engineer Intern</div>
-            <ul>
-              <li>
-                Fine-tuned Mistral and LLaMA models with activation sparsity and attention sparsity for efficient inference.
-              </li>
-              <li>
-                Developed dynamic context pruning, KWTA mechanisms, and KV caching optimizations.
-              </li>
-              <li>
-                <b>Tools:</b> Python, PyTorch, Accelerate, GPT, llama
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2024 - Sept 2024 | Redwood city, CA</span>
-          </div>
-        </div>
 
-        
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.teverra.com/" target="_blank"><img alt="TEVERRA logo"
-                    src="/assets/img/teverra.png" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.teverra.com/" target="_blank"
-                      class="teal-text hoverline">TEVERRA</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Digital Innovation Intern</div>
-            <ul>
-              <li>
-                Designed semantic compression system using deep autoencoders for high-dimensional data.
-              </li>
-              <li>
-                Built ML models for geothermal data analysis and improved accuracy through algorithmic optimization.
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>June 2022 - Aug 2022 | Atlanta, GE</span>
-          </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <img alt="Lifweb logo" src="/assets/img/lifeweb.png" class="responsive-img center-block" />
-
-              </div>
-
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Lifeweb
-                      </a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">NLP Engineer</div>
-            <ul>
-              <li>
-                Fine-tuned BART for Persian text summarization.
-              </li>
-              <li>
-                Implemented Matrix Factorization for topic modeling.
-              </li>
-              <li>
-                Implemented BiLSTM-CRF for sequence tagging and matrix factorization for topic modeling.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Scikit-learn, NLTK
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>June 2018 - Aug 2019 | Tehran, Iran</span>
-          </div>
-        </div>
-      
-    </section>
-
-    <!-- Fourth Section: Projects -->
-     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/download.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Explainability analysis<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  SHAP vs Lime Vs ELI5
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, PyTorch</li>
-                  <li>To explain the model's predictions, the project uses model interpretability tools such as SHAP (SHapley Additive exPlanations), Lime (Local Interpretable Model-agnostic Explanations), and Eli5 (Explain Like I'm 5). These tools provide insights into how the model makes decisions and highlight the importance of different features in predicting strokes..</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/mzamini92/SHAP-vs-Lime-Vs-ELI5"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Causal Inference" src="/assets/img/causal.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Causal Inference<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Causal Inference with Bayesian Networks
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, PyTorch</li>
-                  <li></li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="#" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/mzamini92/Causal-Inference-with-Bayesian"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/download1.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Mohamadbhogayata/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/download1.png"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Bi-directional Autoregressive Transformers From scratch<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A simple Bi-directional Autoregressive Transformers From scratch.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, PyTorch</li>
-                  <li>implement the tokenizer, the model and tune it just the way we want.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/mzamini92/Bi-directional-Autoregressive-Transformers/tree/main"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/download3.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">image captioning<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  VIT + GPT2 image captioning
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/mzamini92/Image-Captioning/" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/gat.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Attention-based Graph Neural Network<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Multi-Label Text Classification using Attention-based Graph Neural Network.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Multi-Label-Text-Classification-using-Attention-based-Graph-Neural-Network.</li>
-
-                </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/mzamini92/Multi-Label-Text-Classification-using-Attention-based-Graph-Neural-Network"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Image Generator -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/featured.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">GPT2 for writing Python code<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  explore how to finetune the GPT2 and create a Python Question answering mdoel like chatgpt
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Develop simple chatbot.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/mzamini92/Question-answering-using-GPT2/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- ************* -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <div class="container">
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Languages and Databases</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
-              </div>
+            <div class="highlight-grid">
+              <article class="highlight-card reveal">
+                <h3>Foundation model efficiency</h3>
+                <p>Pruning, sparse attention, dynamic context selection, and routing strategies for faster inference.</p>
+              </article>
+              <article class="highlight-card reveal">
+                <h3>Product-oriented AI systems</h3>
+                <p>Analytics agents, session-level behavioral pipelines, and deployment-aware machine learning workflows.</p>
+              </article>
+              <article class="highlight-card reveal">
+                <h3>Multimodal reasoning</h3>
+                <p>Research on visual question answering, causal generalization, and more capable multimodal models.</p>
+              </article>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Libraries</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/Spacy-nltk.jpg" class="responsive-img" />NLTK
-              </div>
-            </div>
+      <section id="experience" class="section section-tinted">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Selected roles across research, product, and applied machine learning.</h2>
           </div>
-        </div>
 
-        <!-- Frameworks -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Frameworks</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Other -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Other</h4>
-            <div class="row text-center">
-
-
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/docker.webp" class="responsive-img" />Docker
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- certifications -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
+          <div class="timeline">
+            <article class="experience-card reveal">
+              <div class="experience-header">
+                <div class="experience-brand">
+                  <img src="/assets/img/Microsoft.png" alt="Microsoft logo" />
+                  <div>
+                    <h3>Microsoft</h3>
+                    <p>Data Science Intern</p>
                   </div>
                 </div>
+                <div class="experience-meta">
+                  <span>May 2025 - Aug 2025</span>
+                  <span>Redmond, WA</span>
+                </div>
               </div>
-            </div>
-          </div>
-        </div> -->
-
-      </div>
-    </section>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-          <!-- Education -->
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.uwyo.edu/" target="_blank" class="teal-text hoverline">University of Wyoming</a></span>
-                </p>
-                <p class="brown-text">Laramie, WY</p>
-                <p>
-                  <b>Degree: </b>PhD in Computer Science      
-                  <br>
-                  <b>Area of Study: Causal Reasoning for Improving Generalization in Visual Question Answering</b>
-                  
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Intro to Artificial Intelligen</li>
-                    <li>Machine Learning</li>
-                    <li>High Perform Comput & Paradigm</li>
-                    <li>Advanced Image Processing</li>
-                    <li>Neural and Fuzzy Systems</li>
-                  </ul>
-                  </p>
-
-                </ul>
+              <ul>
+                <li>Built an LLM-powered analytics agent for natural-language querying and multi-turn reasoning over large telemetry datasets.</li>
+                <li>Automated weekly retention and engagement monitoring with SHAP, ANOVA, and anomaly-aware delta detection.</li>
+                <li>Designed scalable data pipelines for session-level behavioral modeling and experimentation.</li>
+              </ul>
+              <div class="tag-row">
+                <span>Python</span>
+                <span>PyTorch</span>
+                <span>Telemetry analytics</span>
               </div>
-            </div>
+            </article>
 
-            
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://modares.ac.ir" target="_blank" class="teal-text hoverline">Tarbiat Modares University</a></span>
-                </p>
-                <p class="brown-text">Tehran, Iran</p>
-                <p>
-                  <b>Degree: </b>Masters of Information Technology
-                  <br>
-                  <b>CGPA: </b>3.68/4.0
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Artificial Neural Networks</li>
-                    <li>Neural and Fuzzy Systems</li>
-                  </ul>
-                  </p>
-
-                </ul>
+            <article class="experience-card reveal">
+              <div class="experience-header">
+                <div class="experience-brand">
+                  <img src="/assets/img/Numenta-logo.png" alt="Numenta logo" />
+                  <div>
+                    <h3>Numenta</h3>
+                    <p>Machine Learning Engineer Intern</p>
+                  </div>
+                </div>
+                <div class="experience-meta">
+                  <span>Jul 2024 - Sep 2024</span>
+                  <span>Redwood City, CA</span>
+                </div>
               </div>
-            </div>
+              <ul>
+                <li>Fine-tuned Mistral and LLaMA models using activation sparsity and attention sparsity for efficient inference.</li>
+                <li>Developed dynamic context pruning, kWTA mechanisms, and KV-cache optimizations to reduce compute overhead.</li>
+                <li>Worked close to the model stack, experimentation loop, and inference performance tradeoffs.</li>
+              </ul>
+              <div class="tag-row">
+                <span>PyTorch</span>
+                <span>Accelerate</span>
+                <span>LLM inference optimization</span>
+              </div>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="experience-header">
+                <div class="experience-brand">
+                  <img src="/assets/img/teverra.png" alt="Teverra logo" />
+                  <div>
+                    <h3>Teverra</h3>
+                    <p>Digital Innovation Intern</p>
+                  </div>
+                </div>
+                <div class="experience-meta">
+                  <span>Jun 2022 - Aug 2022</span>
+                  <span>Atlanta, GA</span>
+                </div>
+              </div>
+              <ul>
+                <li>Designed a semantic compression system using deep autoencoders for high-dimensional scientific data.</li>
+                <li>Built machine learning models for geothermal data analysis and improved predictive accuracy through algorithmic tuning.</li>
+              </ul>
+              <div class="tag-row">
+                <span>Deep learning</span>
+                <span>Scientific data</span>
+                <span>Optimization</span>
+              </div>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="experience-header">
+                <div class="experience-brand">
+                  <img src="/assets/img/lifeweb.png" alt="Lifeweb logo" />
+                  <div>
+                    <h3>Lifeweb</h3>
+                    <p>NLP Engineer</p>
+                  </div>
+                </div>
+                <div class="experience-meta">
+                  <span>Jun 2018 - Aug 2019</span>
+                  <span>Tehran, Iran</span>
+                </div>
+              </div>
+              <ul>
+                <li>Fine-tuned BART for Persian text summarization in a production-oriented NLP setting.</li>
+                <li>Built sequence tagging pipelines with BiLSTM-CRF and topic modeling workflows using matrix factorization.</li>
+                <li>Delivered practical NLP systems for multilingual and domain-specific text understanding.</li>
+              </ul>
+              <div class="tag-row">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>Sequence modeling</span>
+              </div>
+            </article>
           </div>
         </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Hands-on work spanning interpretability, generative models, and multimodal systems.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <img src="/assets/img/download.png" alt="Explainability analysis project artwork" />
+              <div class="project-body">
+                <div class="project-header">
+                  <h3>Explainability Analysis</h3>
+                  <div class="tag-row">
+                    <span>SHAP</span>
+                    <span>LIME</span>
+                    <span>ELI5</span>
+                  </div>
+                </div>
+                <p>
+                  Compared popular interpretability methods to understand feature importance and model behavior in a
+                  healthcare prediction workflow.
+                </p>
+                <a
+                  href="https://github.com/mzamini92/SHAP-vs-Lime-Vs-ELI5"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="text-link"
+                >View repository</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="/assets/img/causal.png" alt="Causal inference project artwork" />
+              <div class="project-body">
+                <div class="project-header">
+                  <h3>Causal Inference with Bayesian Networks</h3>
+                  <div class="tag-row">
+                    <span>Causal reasoning</span>
+                    <span>Bayesian networks</span>
+                  </div>
+                </div>
+                <p>
+                  Explored causal structure and intervention-aware analysis for decision support and more robust ML reasoning.
+                </p>
+                <a
+                  href="https://github.com/mzamini92/Causal-Inference-with-Bayesian"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="text-link"
+                >View repository</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="/assets/img/download1.png" alt="Transformer from scratch project artwork" />
+              <div class="project-body">
+                <div class="project-header">
+                  <h3>Bidirectional Autoregressive Transformers From Scratch</h3>
+                  <div class="tag-row">
+                    <span>PyTorch</span>
+                    <span>Transformers</span>
+                  </div>
+                </div>
+                <p>
+                  Implemented the tokenizer, training loop, and transformer components from the ground up to study the full modeling stack.
+                </p>
+                <a
+                  href="https://github.com/mzamini92/Bi-directional-Autoregressive-Transformers/tree/main"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="text-link"
+                >View repository</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="/assets/img/download3.png" alt="Image captioning project artwork" />
+              <div class="project-body">
+                <div class="project-header">
+                  <h3>Image Captioning with ViT and GPT-2</h3>
+                  <div class="tag-row">
+                    <span>Vision transformer</span>
+                    <span>GPT-2</span>
+                  </div>
+                </div>
+                <p>
+                  Built a multimodal captioning pipeline that pairs visual representations with generative language modeling.
+                </p>
+                <a
+                  href="https://github.com/mzamini92/Image-Captioning/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="text-link"
+                >View repository</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="/assets/img/gat.png" alt="Graph neural network project artwork" />
+              <div class="project-body">
+                <div class="project-header">
+                  <h3>Attention-Based Graph Neural Network</h3>
+                  <div class="tag-row">
+                    <span>Text classification</span>
+                    <span>GNN</span>
+                  </div>
+                </div>
+                <p>
+                  Developed a graph-attention approach for multi-label text classification to capture richer label and feature relationships.
+                </p>
+                <a
+                  href="https://github.com/mzamini92/Multi-Label-Text-Classification-using-Attention-based-Graph-Neural-Network"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="text-link"
+                >View repository</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <img src="/assets/img/featured.png" alt="GPT-2 Python assistant project artwork" />
+              <div class="project-body">
+                <div class="project-header">
+                  <h3>GPT-2 for Python Code Assistance</h3>
+                  <div class="tag-row">
+                    <span>Fine-tuning</span>
+                    <span>Q&amp;A</span>
+                  </div>
+                </div>
+                <p>
+                  Fine-tuned GPT-2 into a lightweight Python question-answering assistant to explore code-focused generative behavior.
+                </p>
+                <a
+                  href="https://github.com/mzamini92/Question-answering-using-GPT2/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="text-link"
+                >View repository</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-tinted">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>A toolkit shaped by research rigor and shipping real systems.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <h3>Languages and core ML</h3>
+              <div class="tag-row">
+                <span>Python</span>
+                <span>C++</span>
+                <span>PyTorch</span>
+                <span>TensorFlow</span>
+                <span>Hugging Face</span>
+                <span>NumPy</span>
+                <span>Pandas</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3>Optimization and deployment</h3>
+              <div class="tag-row">
+                <span>Pruning</span>
+                <span>ONNX</span>
+                <span>TensorRT</span>
+                <span>TorchServe</span>
+                <span>FastAPI</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3>Data and infrastructure</h3>
+              <div class="tag-row">
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+                <span>MongoDB</span>
+                <span>AWS</span>
+                <span>GCP</span>
+                <span>Azure</span>
+                <span>Git</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <h3>Analysis and experimentation</h3>
+              <div class="tag-row">
+                <span>Model interpretability</span>
+                <span>SHAP</span>
+                <span>ANOVA</span>
+                <span>OpenCV</span>
+                <span>Weights &amp; Biases</span>
+                <span>NLTK</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Academic foundation in machine learning, reasoning, and advanced computation.</h2>
+          </div>
+
+          <div class="education-grid">
+            <article class="education-card reveal">
+              <h3>University of Wyoming</h3>
+              <p class="education-meta">Laramie, WY</p>
+              <p><strong>Degree:</strong> PhD in Computer Science</p>
+              <p><strong>Research:</strong> Causal reasoning for improving generalization in visual question answering</p>
+              <p><strong>Relevant coursework:</strong> Machine Learning, High Performance Computing, Advanced Image Processing, Neural and Fuzzy Systems, Artificial Intelligence</p>
+            </article>
+
+            <article class="education-card reveal">
+              <h3>Tarbiat Modares University</h3>
+              <p class="education-meta">Tehran, Iran</p>
+              <p><strong>Degree:</strong> Master of Information Technology</p>
+              <p><strong>GPA:</strong> 3.68 / 4.0</p>
+              <p><strong>Relevant coursework:</strong> Artificial Neural Networks, Neural and Fuzzy Systems</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Open to ambitious work in applied AI, multimodal systems, and model optimization.</h2>
+            <p>
+              If you are hiring for machine learning engineering, research engineering, or foundation model work,
+              I would be glad to connect.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="mailto:mohamad.zamini@gmail.com">Email Me</a>
+              <a
+                class="button button-secondary"
+                href="/assets/resume/Mohamad_Zamini_Optimized_Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >View Resume</a>
+            </div>
+          </div>
+
+          <div class="contact-cards">
+            <a class="contact-card reveal" href="mailto:mohamad.zamini@gmail.com">
+              <i class="fa fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>mohamad.zamini@gmail.com</span>
+              </div>
+            </a>
+            <a class="contact-card reveal" href="tel:+17012157110">
+              <i class="fa fa-phone"></i>
+              <div>
+                <strong>Phone</strong>
+                <span>+1 (701) 215-7110</span>
+              </div>
+            </a>
+            <a class="contact-card reveal" href="https://github.com/mzamini92" target="_blank" rel="noreferrer">
+              <i class="fa fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/mzamini92</span>
+              </div>
+            </a>
+            <a
+              class="contact-card reveal"
+              href="https://www.linkedin.com/in/mohamad-zamini-70794646/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa fa-linkedin"></i>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>mohamad-zamini-70794646</span>
+              </div>
+            </a>
+            <a
+              class="contact-card reveal"
+              href="https://scholar.google.com/citations?user=Xh0_MckAAAAJ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa fa-graduation-cap"></i>
+              <div>
+                <strong>Google Scholar</strong>
+                <span>Publications and citations</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Mohamad Zamini</p>
+        <p>Built for clarity, speed, and a stronger professional presence on GitHub Pages.</p>
       </div>
-    </section>
+    </footer>
+  </div>
 
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Mohamad" data-position="top" data-tooltip="Call Mohamad"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Mohamad">+1 (701) 215-7110</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Mohamad" href="mailto:mohamad.zamini@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Mohamad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Mohamad" href="mailto:mohamad.zamini@gmail.com"
-              class="hoverline">mohamad.zamini@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Mohamad on GitHub" href="http://github.com/mzamini92" target="_blank"
-            data-position="top" data-tooltip="View Mohamad on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Mohamad on Github" href="http://github.com/mzamini92" class="hoverline"
-              target="_blank">github.com/mzamini92</a></a>
-        </p>
-        <p>
-          <a aria-label="View Mohamad on LinkedIn" href="http://linkedin.com/in/Mohamadbhogayata" target="_blank"
-            data-position="top" data-tooltip="View Mohamad on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Mohamad on LinkedIn" href="https://www.linkedin.com/in/mohamad-zamini-70794646/"
-              class="hoverline" target="_blank">https://www.linkedin.com/in/mohamad-zamini-70794646/</a></a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["LLM specialist", "Pythonist", "Developer", "Fast Learner"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script src="/assets/vendor/typed.js/typed.min.js"></script>
   <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
+    (function () {
+      var menuToggle = document.querySelector(".menu-toggle");
+      var siteNav = document.querySelector(".site-nav");
+      var navLinks = document.querySelectorAll(".site-nav a");
+      var revealTargets = document.querySelectorAll(".reveal");
+      var sectionLinks = document.querySelectorAll(".site-nav a[href^='#']");
+
+      if (typeof Typed !== "undefined") {
+        new Typed(".typed-role", {
+          strings: [
+            "efficient multimodal AI systems.",
+            "LLM research prototypes.",
+            "production-ready ML workflows.",
+            "causal reasoning pipelines."
+          ],
+          typeSpeed: 55,
+          backSpeed: 24,
+          backDelay: 1800,
+          loop: true
+        });
+      }
+
+      if (menuToggle && siteNav) {
+        menuToggle.addEventListener("click", function () {
+          var isOpen = siteNav.classList.toggle("is-open");
+          menuToggle.classList.toggle("is-open", isOpen);
+          menuToggle.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        navLinks.forEach(function (link) {
+          link.addEventListener("click", function () {
+            siteNav.classList.remove("is-open");
+            menuToggle.classList.remove("is-open");
+            menuToggle.setAttribute("aria-expanded", "false");
+          });
+        });
+      }
+
+      if ("IntersectionObserver" in window) {
+        var revealObserver = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("revealed");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.18 });
+
+        revealTargets.forEach(function (item) {
+          revealObserver.observe(item);
+        });
+
+        var sectionObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) {
+              return;
+            }
+
+            sectionLinks.forEach(function (link) {
+              var target = link.getAttribute("href");
+              link.classList.toggle("is-active", target === "#" + entry.target.id);
+            });
+          });
+        }, {
+          rootMargin: "-40% 0px -45% 0px",
+          threshold: 0
+        });
+
+        document.querySelectorAll("main section[id]").forEach(function (section) {
+          sectionObserver.observe(section);
+        });
+      } else {
+        revealTargets.forEach(function (item) {
+          item.classList.add("revealed");
+        });
+      }
+    })();
   </script>
 </body>
-
 </html>
